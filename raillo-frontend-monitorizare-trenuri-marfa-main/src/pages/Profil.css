@@ -1,0 +1,101 @@
+.profil-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  .profil-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .profil-avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #007bff;
+  }
+
+  .profil-card h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .profil-card p {
+    color: #666;
+    margin: 6px 0;
+  }
+
+  .profil-card label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 5px;
+    color: #444;
+    font-weight: 500;
+  }
+
+  .profil-card input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border 0.2s ease-in-out;
+  }
+
+  .profil-card input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+
+  .profil-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin: 10px 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+
+  .profil-button:hover {
+    background-color: #0056b3;
+  }
+
+  .profil-button:nth-child(odd) {
+    background-color: #6c757d;
+  }
+
+  .profil-button:nth-child(odd):hover {
+    background-color: #5a6268;
+  }
+
+  .select-role-input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #fff;
+    transition: border 0.2s ease-in-out;
+  }
+
+  .select-role-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+}

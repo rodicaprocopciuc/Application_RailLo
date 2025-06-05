@@ -1,0 +1,15 @@
+# React (frontend)
+raillo-frontend-monitorizare-trenuri-marfa/node_modules/
+raillo-frontend-monitorizare-trenuri-marfa/.env
+raillo-frontend-monitorizare-trenuri-marfa/build/
+
+# ASP.NET Core (backend)
+.net-backend/MyBackend/bin/
+.net-backend/MyBackend/obj/
+*.user
+*.suo
+
+# General
+.vscode/
+.env
+
